@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+}
+
+.app {
+  padding: 20px;
+}
+
+.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.theme-toggle {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.search-bar {
+  padding: 10px;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.sort-button {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  margin-left: 5%;
+}
+
+.user-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.user-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+
+.details-link {
+  border: 1px solid #ccc;
+  padding: 7px;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: rgb(241, 0, 0);
+}
+
+.go-back {
+  display: block;
+  margin-bottom: 20px;
+  color: blue;
+  text-decoration: underline;
+}
+
+
+.loader{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  align-items: center;
+  height: 100vh;
+  width: 100wv;
+
+}
+
+
+.user-detail {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.user-detail.dark {
+  background-color: #2c2c2c;
+  color: #f5f5f5;
+}
+
+.go-back {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 8px 16px;
+  background-color: #4fa94d;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.go-back:hover {
+  background-color: #3e8e41;
+  transform: scale(1.05);
+  
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+}
+
+.loader {
+  animation: fadeIn 1s ease-in-out infinite alternate;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0.5;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+p {
+  margin: 8px 0;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+p span {
+  font-weight: bold;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
