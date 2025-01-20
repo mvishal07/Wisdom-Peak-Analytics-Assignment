@@ -18,7 +18,7 @@ state = {
   render() {
     return (
       <ThemeContext.Provider value={{ ...this.state, toggleTheme: this.toggleTheme }}>
-        <Router>
+        <Router basename="/repo-name">
           <div className={this.state.darkMode ? "app dark" : "app"}>
             <button className="theme-toggle" onClick={this.toggleTheme}>
               {this.state.darkMode ? "Light Mode" : "Dark Mode"}
