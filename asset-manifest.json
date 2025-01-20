@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Wisdom-Peak-Analytics-Assignment/static/css/main.49b19520.css",
+    "main.js": "/Wisdom-Peak-Analytics-Assignment/static/js/main.dd2ce47d.js",
+    "static/js/488.92fb1d49.chunk.js": "/Wisdom-Peak-Analytics-Assignment/static/js/488.92fb1d49.chunk.js",
+    "index.html": "/Wisdom-Peak-Analytics-Assignment/index.html",
+    "main.49b19520.css.map": "/Wisdom-Peak-Analytics-Assignment/static/css/main.49b19520.css.map",
+    "main.dd2ce47d.js.map": "/Wisdom-Peak-Analytics-Assignment/static/js/main.dd2ce47d.js.map",
+    "488.92fb1d49.chunk.js.map": "/Wisdom-Peak-Analytics-Assignment/static/js/488.92fb1d49.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.49b19520.css",
+    "static/js/main.dd2ce47d.js"
+  ]
+}
